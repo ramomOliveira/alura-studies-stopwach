@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import style from './Button.module.scss';
 
-function Button() {
+interface IButtonProps {
+  children: ReactNode,
+  onClick?: () => void,
+}
+
+function Button({ children, onClick }: IButtonProps) {
   return (
-    <button className={style.botao}>
-      Teste
+    <button onClick={onClick} className={style.btn}>
+      {children}
     </button>
   )
 }

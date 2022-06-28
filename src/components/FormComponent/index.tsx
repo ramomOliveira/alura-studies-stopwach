@@ -32,7 +32,9 @@ function FormComponent() {
           required
         />
       </div>
-      <Button />
+      <Button>
+        Adicionar
+      </Button>
     </form>
   )
 }

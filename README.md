@@ -10,7 +10,7 @@
 
 ## Descrição
 
-Projeto feito em ReactJs, o cronometro ir somar o tempo das atividades, onde você pode escolher as atividades que vai fazer, e passar o tempo para executar cada uma delas.
+Projeto feito em ReactJs, o cronômetro ir somar o tempo das atividades, onde você pode escolher as atividades que vai fazer, e passar o tempo para executar cada uma delas.
 
 <p align="center">
   <img alt="Imagem Home" src="github/dtmoney01.png" width="800px">
