@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from '../Button';
-import './style.scss';
+import style from './Form.module.scss';
 
 function FormComponent() {
   return (
-    <form className="novaTarefa">
-      <div className="inputContainer">
+    <form className={style.novaTarefa}>
+      <div className={style.inputContainer}>
         <label htmlFor='task'>
           Adicione um novo estudo
         </label>
@@ -18,7 +18,7 @@ function FormComponent() {
         />
       </div>
 
-      <div className="inputContainer">
+      <div className={style.inputContainer}>
         <label htmlFor='time'>
           Tempo
         </label>
