@@ -3,14 +3,14 @@
 <br />
 
 <p align="center">
-  <img alt="Logo dtMoney" src="github/logo.svg" width="120px">
+  <img alt="Logo Alura studies stopwatch" src="github/logo.svg" width="120px">
 </p>
 
 <br />
 
 ## Descrição
 
-Projeto feito em ReactJs, api simulada com miragejs, projeto para controle de finanças pessoais.
+Projeto feito em ReactJs, o cronometro ir somar o tempo das atividades, onde você pode escolher as atividades que vai fazer, e passar o tempo para executar cada uma delas.
 
 <p align="center">
   <img alt="Imagem Home" src="github/dtmoney01.png" width="800px">
@@ -18,11 +18,8 @@ Projeto feito em ReactJs, api simulada com miragejs, projeto para controle de fi
 
 <p>-------------</p>
 
-<p align="center">
-  <img alt="Imagem modal" src="github/dtmoney02.png" width="800px">
-</p>
 
-  - Projeto Front End esta com deploy na Netlify [clique aqui](https://glittery-bunny-77da3e.netlify.app/)
+  - Projeto com deploy na Netlify [clique aqui](https://glittery-bunny-77da3e.netlify.app/)
 
 ## 🚀 Instalação
 
