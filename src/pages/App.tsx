@@ -8,7 +8,6 @@ import style from './App.module.scss';
 function App() {
   const [tasks, setTasks] = useState<ITask[] | []>([]);
   const [selected, setSelected] = useState<ITask>();
-  console.log(tasks);
 
   function selectTask(taskSelected: ITask) {
     setSelected(taskSelected);
@@ -18,6 +17,22 @@ function App() {
     })));
   }
 
+  function finalizarTask() {
+    if (selected) {
+      setSelected(undefined)
+      setTasks(tarefasAnteriores => tarefasAnteriores.map((task) => {
+        if (task.id === selected.id) {
+          return {
+            ...task,
+            selected: false,
+            completed: true,
+          }
+        }
+        return task;
+      }))
+    }
+  }
+
   return (
     <div className={style.AppStyle}>
       <FormComponent setTasks={setTasks} />
@@ -25,7 +40,10 @@ function App() {
         tasks={tasks}
         selectTask={selectTask}
       />
-      <Stopwatch />
+      <Stopwatch
+        selected={selected}
+        finalizarTask={finalizarTask}
+      />
     </div>
   );
 }
