@@ -3,27 +3,32 @@
 <br />
 
 <p align="center">
-  <img alt="Logo Alura studies stopwatch" src="github/logo.svg" width="120px">
+  <img alt="Logo Alura studies stopwatch" src="github/logo.png" width="120px">
 </p>
 
 <br />
 
 ## Descrição
 
-Projeto feito em ReactJs, o cronômetro ir somar o tempo das atividades, onde você pode escolher as atividades que vai fazer, e passar o tempo para executar cada uma delas.
+Projeto feito em ReactJs, onde você pode escolher a atividade que vai fazer, e passar o tempo para cada uma, clique em começar e o cronômetro ira começar a diminuir.
 
 <p align="center">
-  <img alt="Imagem Home" src="github/dtmoney01.png" width="800px">
+  <img alt="Imagem Home" src="github/alu02.png" width="800px">
 </p>
 
 <p>-------------</p>
 
+<p align="center">
+  <img alt="Imagem Home" src="github/alura01.png" width="300px">
+</p>
 
-  - Projeto com deploy na Netlify [clique aqui](https://glittery-bunny-77da3e.netlify.app/)
+<p>-------------</p>
+
+  - Projeto com deploy na Netlify [clique aqui](https://peppy-queijadas-c25a64.netlify.app/)
 
 ## 🚀 Instalação
 
-Clone o projeto na sua máquina com Vs Code
+Clone o projeto na sua máquina, abra o terminal e execute.
 
 ```bash
 $ git clone https://github.com/ramomOliveira/dtMoney.git
@@ -32,7 +37,7 @@ $ code .
 ```
 
 
-Para iniciá-lo, siga as etapas abaixo:
+Para iniciá-lo, veja uma opção abaixo:
 
 ```bash
 #instalar as dependências
@@ -40,7 +45,7 @@ $ yarn
 
 
 #iniciar o projeto
-$ yarn dev #para rodar em desenvolvimento
+$ yarn start #para rodar em desenvolvimento
 ```
 
 </br>
@@ -49,16 +54,13 @@ $ yarn dev #para rodar em desenvolvimento
 
 | Tecnologia            | Versão            |
 | --------------------- | ----------------- |
-| Axios                 | `0.27.2`          |
-| MirageJs              | `0.1.45`          |
-| Polished              | `18.1.0`          |
-| ReactJs               | `12.1.6 `         |
-| React-modal           | `3.15.1`          |
-| Styled-components     | `5.3.5`           |
+| Sass                  | `1.53.0`          |
+| Uuid                  | `8.3.2`           |
+| ReactJs               | `18.2.0 `         |
 | Typescript            | `4.4.2`           |
 
 <br />
 
 
 
-- Obs: O projeto foi feito simulando uma api com axios e miragejs, então na versão online nao irar funcionar o CRUD.
+- Obs: O projeto simples mais de grande aprendizado.
